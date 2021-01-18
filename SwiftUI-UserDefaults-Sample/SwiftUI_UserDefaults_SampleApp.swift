@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_UserDefaults_SampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ListData())
         }
     }
 }

@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45A520D425B521950069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A520D325B521950069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift */; };
 		45A520D625B521950069CFF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A520D525B521950069CFF4 /* ContentView.swift */; };
 		45A520D825B521990069CFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A520D725B521990069CFF4 /* Assets.xcassets */; };
 		45A520DB25B521990069CFF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A520DA25B521990069CFF4 /* Preview Assets.xcassets */; };
 		45A520E625B521990069CFF4 /* SwiftUI_UserDefaults_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A520E525B521990069CFF4 /* SwiftUI_UserDefaults_SampleTests.swift */; };
 		45A520F125B521990069CFF4 /* SwiftUI_UserDefaults_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A520F025B521990069CFF4 /* SwiftUI_UserDefaults_SampleUITests.swift */; };
+		45A5210225B523850069CFF4 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5210125B523850069CFF4 /* ListData.swift */; };
+		45A5210725B524C20069CFF4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5210625B524C20069CFF4 /* Data.swift */; };
+		45A5211A25B5294D0069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5211925B5294D0069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		45A520D025B521950069CFF4 /* SwiftUI-UserDefaults-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-UserDefaults-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45A520D325B521950069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserDefaults_SampleApp.swift; sourceTree = "<group>"; };
 		45A520D525B521950069CFF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45A520D725B521990069CFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45A520DA25B521990069CFF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		45A520EC25B521990069CFF4 /* SwiftUI-UserDefaults-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-UserDefaults-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A520F025B521990069CFF4 /* SwiftUI_UserDefaults_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserDefaults_SampleUITests.swift; sourceTree = "<group>"; };
 		45A520F225B521990069CFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A5210125B523850069CFF4 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		45A5210625B524C20069CFF4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		45A5211925B5294D0069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserDefaults_SampleApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +99,13 @@
 		45A520D225B521950069CFF4 /* SwiftUI-UserDefaults-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				45A520D325B521950069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift */,
+				45A5211925B5294D0069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift */,
 				45A520D525B521950069CFF4 /* ContentView.swift */,
 				45A520D725B521990069CFF4 /* Assets.xcassets */,
 				45A520DC25B521990069CFF4 /* Info.plist */,
 				45A520D925B521990069CFF4 /* Preview Content */,
+				45A5210125B523850069CFF4 /* ListData.swift */,
+				45A5210625B524C20069CFF4 /* Data.swift */,
 			);
 			path = "SwiftUI-UserDefaults-Sample";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A520D625B521950069CFF4 /* ContentView.swift in Sources */,
-				45A520D425B521950069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift in Sources */,
+				45A5210725B524C20069CFF4 /* Data.swift in Sources */,
+				45A5211A25B5294D0069CFF4 /* SwiftUI_UserDefaults_SampleApp.swift in Sources */,
+				45A5210225B523850069CFF4 /* ListData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
